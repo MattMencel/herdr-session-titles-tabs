@@ -17,3 +17,7 @@ See [RECIPE.md](RECIPE.md) for how it's built. Upstream issue: [herdrdev/herdr-a
 ## License
 
 Apache-2.0. Modified from the `tabs` mod shipped with Herdr 0.1.13 ([herdrdev/herdr-app](https://github.com/herdrdev/herdr-app), Apache-2.0).
+
+## Development
+
+`npm install`, then `npm run lint` (Biome, lint only: the mod follows upstream's formatting so it stays easy to diff against the shipped `tabs` mod) and `npm test` (the session-title parser in `session.js`). The tab bar itself needs a running Herdr: check it with `herdr-app check`.
