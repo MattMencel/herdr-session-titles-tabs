@@ -1,3 +1,6 @@
+// From choam2426/herdr-session-titles (Apache-2.0,
+// github.com/choam2426/herdr-session-titles).
+//
 // The session an agent is on, from the title it gives its terminal, and how a
 // row names it. Kept beside each mod that uses it (session-titles-agents,
 // session-titles-pane, session-titles-tabs), so each folder stands alone; the

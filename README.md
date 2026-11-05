@@ -16,7 +16,7 @@ See [RECIPE.md](RECIPE.md) for how it's built. Upstream issue: [herdrdev/herdr-a
 
 ## License
 
-Apache-2.0. Modified from the `tabs` mod shipped with Herdr 0.1.13 ([herdrdev/herdr-app](https://github.com/herdrdev/herdr-app), Apache-2.0).
+Apache-2.0. Modified from the `tabs` mod shipped with Herdr 0.1.13 ([herdrdev/herdr-app](https://github.com/herdrdev/herdr-app), Apache-2.0). `session.js`, the session-title parser, comes from [choam2426/herdr-session-titles](https://github.com/choam2426/herdr-session-titles) (Apache-2.0), which does the same for the Agents list and pane headers. See [NOTICE](NOTICE).
 
 ## Development
 
